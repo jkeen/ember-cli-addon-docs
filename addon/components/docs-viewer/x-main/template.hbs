@@ -4,8 +4,7 @@
   {{#if this.editCurrentPageUrl}}
     <div class="docs-mt-16 docs-mb-8" data-test-edit-page-link>
       <a href={{this.editCurrentPageUrl}}
-        class="docs-transition docs-text-grey-darkest docs-opacity-50 docs-text-xs
-        hover:docs-opacity-75 docs-no-underline docs-border-b docs-border-grey hover:docs-border-grey-darkest">
+        class="docs-transition docs-text-grey-darkest docs-opacity-50 docs-text-xs hover:docs-opacity-75 docs-no-underline docs-border-b docs-border-grey hover:docs-border-grey-darkest">
         Edit this page
       </a>
     </div>
@@ -19,8 +18,7 @@
         Previous
       </div>
       {{#link-to params=this.docsRoutes.previous.route
-        class="docs-text-grey-darkest docs-text-large-4 docs-font-light docs-no-underline
-        docs-border-b docs-border-grey hover:docs-border-grey-darkest docs-transition"}}
+        class="docs-text-grey-darkest docs-text-large-4 docs-font-light docs-no-underline docs-border-b docs-border-grey hover:docs-border-grey-darkest docs-transition"}}
         {{this.docsRoutes.previous.label}}
       {{/link-to}}
     {{/if}}
@@ -32,8 +30,7 @@
         Next
       </div>
       {{#link-to params=this.docsRoutes.next.route
-        class="docs-text-grey-darkest docs-text-large-4 docs-font-light docs-no-underline
-        docs-border-b docs-border-grey hover:docs-border-grey-darkest docs-transition"}}
+        class="docs-text-grey-darkest docs-text-large-4 docs-font-light docs-no-underline docs-border-b docs-border-grey hover:docs-border-grey-darkest docs-transition"}}
         {{this.docsRoutes.next.label}}
       {{/link-to}}
     {{/if}}
